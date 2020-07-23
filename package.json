@@ -1,0 +1,26 @@
+{
+	"name": "planetdp-subtitle-downloader",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ztancankiri/planetdp-subtitle-downloader.git"
+	},
+	"author": "Ztan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ztancankiri/planetdp-subtitle-downloader/issues"
+	},
+	"homepage": "https://github.com/ztancankiri/planetdp-subtitle-downloader#readme",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"cheerio": "^1.0.0-rc.3",
+		"fs": "0.0.1-security",
+		"nodemon": "^2.0.4",
+		"querystring": "^0.2.0"
+	}
+}
